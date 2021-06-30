@@ -20,9 +20,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Setup community tools
-        env:
-          COMMUNITY_VERSION: 0.1.0
-        run: curl -sSL "https://github.com/beyondstorage/go-community/releases/download/${COMMUNITY_VERSION}/community_${COMMUNITY_VERSION}_linux_arm64.tar.gz" -O community.tar.gz && tar -xvf community.tar.gz && ./community --help
+        run: curl -sSL "https://github.com/beyondstorage/go-community/releases/download/v0.1.0/community_0.1.0_linux_x86_64.tar.gz" -o community.tar.gz && tar -xvf community.tar.gz && ./community --help
 
       - name: Sync Team
         env:
