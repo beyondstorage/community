@@ -13,7 +13,7 @@ repos = [
     "go-community",
     "site"
 ]
-[specs.members]
+[community.members]
 leader = [
     "Xuanwo"
 ]
