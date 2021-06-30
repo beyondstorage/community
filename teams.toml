@@ -20,6 +20,12 @@ repos = [
 leader = [
     "Xuanwo"
 ]
+committer = [
+    "xxchan",
+    "Prnyself",
+    "JinnyYi",
+    "aprilyang"
+]
 
 [dm]
 repos = [
