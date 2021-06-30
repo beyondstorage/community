@@ -9,6 +9,9 @@ leader = [
 maintainer = [
     "xxchan"
 ]
+committer = [
+    "JinnyYi"
+]
 
 [community]
 repos = [
