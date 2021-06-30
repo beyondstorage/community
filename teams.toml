@@ -42,6 +42,12 @@ leader = [
 maintainer = [
     "Prnyself"
 ]
+committer = [
+    "aprilyang"
+]
+reviewer = [
+    "zhangdichn"
+]
 
 [go-storage]
 repos = [
