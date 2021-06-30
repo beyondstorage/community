@@ -1,0 +1,66 @@
+[specs]
+repos = [
+    "specs"
+]
+[specs.members]
+leader = [
+    "Xuanwo"
+]
+
+[community]
+repos = [
+    "community",
+    "go-community",
+    "site"
+]
+[specs.members]
+leader = [
+    "Xuanwo"
+]
+
+[dm]
+repos = [
+    "dm",
+    "go-toolbox"
+]
+[dm.members]
+leader = [
+    "Xuanwo"
+]
+
+[go-storage]
+repos = [
+    "go-coreutils",
+    "go-endpoint",
+    "go-fs",
+    "go-ftp-server",
+    "go-integration-test",
+    "go-service-azblob",
+    "go-service-cos",
+    "go-service-dropbox",
+    "go-service-example",
+    "go-service-fs",
+    "go-service-ftp",
+    "go-service-gcs",
+    "go-service-gdrive",
+    "go-service-hdfs",
+    "go-service-ipfs",
+    "go-service-kodo",
+    "go-service-memory",
+    "go-service-minio",
+    "go-service-onedrive",
+    "go-service-oss",
+    "go-service-qingstor",
+    "go-service-s3",
+    "go-service-storj",
+    "go-service-tar",
+    "go-service-uss",
+    "go-service-webdav",
+    "go-service-zip",
+    "go-storage",
+    "go-storage-example",
+]
+[go-storage.members]
+leader = [
+    "Xuanwo"
+]
