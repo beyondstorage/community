@@ -6,6 +6,9 @@ repos = [
 leader = [
     "Xuanwo"
 ]
+maintainer = [
+    "xxchan"
+]
 
 [community]
 repos = [
@@ -66,4 +69,7 @@ repos = [
 [go-storage.members]
 leader = [
     "Xuanwo"
+]
+maintainer = [
+    "xxchan"
 ]
