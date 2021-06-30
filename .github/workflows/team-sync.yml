@@ -3,7 +3,7 @@ name: "Team Sync"
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   team_sync:
