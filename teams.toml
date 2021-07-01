@@ -29,6 +29,10 @@ committer = [
     "JinnyYi",
     "aprilyang"
 ]
+contributor = [
+    "bokket",
+    "OAkaLala"
+]
 
 [dm]
 repos = [
