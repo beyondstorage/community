@@ -38,12 +38,12 @@ contributor = [
     "junaire"
 ]
 
-[dm]
+[beyond-tp]
 repos = [
-    "dm",
+    "beyond-tp",
     "go-toolbox"
 ]
-[dm.members]
+[beyond-tp.members]
 leader = [
     "Xuanwo"
 ]
