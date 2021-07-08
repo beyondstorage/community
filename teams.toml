@@ -16,6 +16,7 @@ committer = [
 [community]
 repos = [
     "community",
+    "forum-theme",
     "go-community",
     "site"
 ]
@@ -59,10 +60,10 @@ reviewer = [
 
 [go-storage]
 repos = [
+    "beyond-fs",
+    "beyond-ftp",
     "go-coreutils",
     "go-endpoint",
-    "go-fs",
-    "go-ftp-server",
     "go-integration-test",
     "go-service-azblob",
     "go-service-cos",
