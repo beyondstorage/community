@@ -51,9 +51,7 @@ maintainer = [
     "Prnyself"
 ]
 committer = [
-    "aprilyang"
-]
-reviewer = [
+    "aprilyang",
     "zhangdichn"
 ]
 
