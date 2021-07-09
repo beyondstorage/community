@@ -1,21 +1,5 @@
-[specs]
-repos = [
-    "specs"
-]
-[specs.members]
-leader = [
-    "Xuanwo"
-]
-maintainer = [
-    "xxchan"
-]
-committer = [
-    "JinnyYi"
-]
-
 [community]
 repos = [
-    "community",
     "forum-theme",
     "go-community",
     "site"
