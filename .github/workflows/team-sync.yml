@@ -1,9 +1,6 @@
 name: "Team Sync"
 
-on:
-  push:
-    branches:
-      - master
+on: [ push, pull_request ]
 
 jobs:
   team_sync:
@@ -19,11 +16,20 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Setup community tools
-        run: curl -sSL "https://github.com/beyondstorage/go-community/releases/download/v0.1.0/community_0.1.0_linux_x86_64.tar.gz" -o community.tar.gz && tar -xvf community.tar.gz && ./community --help
+      - name: Checkout tools repo
+        uses: actions/checkout@v2
+        with:
+          repository: beyondstorage/go-community
+          path: go-community
+          ref: v0.2.0
+
+      - name: Build community tools
+        working-directory: go-community
+        run: make build
 
       - name: Sync Team
+        if: ${{ github.ref == 'refs/heads/master' }}
         env:
           COMMUNITY_GITHUB_OWNER: beyondstorage
           COMMUNITY_GITHUB_ACCESS_TOKEN: ${{ secrets.COMMUNITY_GITHUB_ACCESS_TOKEN }}
-        run: ./community team sync --path teams.toml
+        run: ./go-community/bin/community team sync --path teams.toml
