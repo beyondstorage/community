@@ -24,7 +24,7 @@ jobs:
         with:
           repository: beyondstorage/go-community
           path: go-community
-          ref: v0.2.0
+          ref: v0.3.0
 
       - name: Build community tools
         working-directory: go-community
