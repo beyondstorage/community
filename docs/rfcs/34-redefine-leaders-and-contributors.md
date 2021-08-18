@@ -1,7 +1,7 @@
 - Author: Xuanwo <github@xuanwo.io>
 - Start Date: 2021-08-18
 - RFC PR: [beyondstorage/community#34](https://github.com/beyondstorage/community/pull/34)
-- Tracking Issue: [beyondstorage/community#0](https://github.com/beyondstorage/community/issues/0)
+- Tracking Issue: [beyondstorage/community#35](https://github.com/beyondstorage/community/issues/35)
 
 # RFC-34: Redefine Leaders and Contributors
 
