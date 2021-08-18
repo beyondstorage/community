@@ -1,13 +1,17 @@
 - Author: Xuanwo <github@xuanwo.io>
 - Start Date: 2021-08-18
-- RFC PR: [beyondstorage/community#0](https://github.com/beyondstorage/community/issues/0)
+- RFC PR: [beyondstorage/community#34](https://github.com/beyondstorage/community/pull/34)
 - Tracking Issue: [beyondstorage/community#0](https://github.com/beyondstorage/community/issues/0)
 
-# RFC-0: Redefine Leaders and Contributors
+# RFC-34: Redefine Leaders and Contributors
+
+Previous Discussion:
+
+- [proposal: Separating Leaders](https://github.com/beyondstorage/community/issues/26)
 
 ## Background
 
-In [GSP-128], we defined our community organization to make it clear that everyone's rights and responsibilities. After sometime evaluation, we find out some shortcomes.
+In [GSP-128], we defined our community organization to make it clear that everyone's rights and responsibilities. After sometime evaluation, we find out some shortcomings.
 
 - Levels are too much: we have 5 roles for every project.
 - `Leader` is not used: `Maintainer` is responsible for the whole project
@@ -15,7 +19,7 @@ In [GSP-128], we defined our community organization to make it clear that everyo
 
 ## Proposal
 
-So I propose to implement following changes:
+So I propose to implement the following changes:
 
 - Remove `Leader` role from single projects
 - Remove `Contributor` role from single projects
@@ -23,12 +27,12 @@ So I propose to implement following changes:
 Instead, we will add:
 
 - `PMC` (Project Management Committee) for the whole BeyondStorage community.
-  - PMC will be the management team for BeyondStorage, involved in roadmap development of major community-related resolutions.
+  - PMC will be the management team for BeyondStorage, involved in the roadmap development of major community-related resolutions.
   - PMC will have `admin` permission for all repos under BeyondStorage.
 - `Contributor` for the whole BeyondStorage community.
-  - We will use community contributor instead of project contributor. 
+  - We will use community contributors instead of project contributors.
 
-After this changes, our organization layout will be:
+After these changes, our organization layout will be:
 
 ```txt
    ┌────────────────────────────────────────────────┐
