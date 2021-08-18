@@ -1,7 +1,7 @@
 - Author: (fill me in with `name <mail>`, e.g., Xuanwo <github@xuanwo.io>)
 - Start Date: (fill me in with today's date, YYYY-MM-DD)
 - RFC PR: [beyondstorage/community#0](https://github.com/beyondstorage/community/issues/0)
-- Tracking Issue: [beyondstorage/community#0](https://github.com/beyondstorage/community/issues/0)
+- Tracking Issue: [beyondstorage/community#35](https://github.com/beyondstorage/community/issues/35)
 
 # RFC-0: <proposal name>
 
