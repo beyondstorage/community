@@ -2,14 +2,32 @@
 
 This repo maintains the community organization for BeyondStorage.
 
-## Roles
+Our community organization layout looks like:
 
-### Leader
+```txt
+   ┌────────────────────────────────────────────────┐
+   │                     PMC                        │
+   └────────────────────────────────────────────────┘
+   ┌─────────────┐  ┌──────────────┐  ┌─────────────┐
+   │  beyond-tp  │  │  go-storage  │  │  community  │
+   │             │  │              │  │             │
+   │ Maintainer  │  │  Maintainer  │  │  Maintainer │
+   │ Committer   │  │  Committer   │  │  Committer  │
+   │ Reviewer    │  │  Reviewer    │  │  Reviewer   │
+   └─────────────┘  └──────────────┘  └─────────────┘
+   ┌────────────────────────────────────────────────┐
+   │                   Contributor                  │
+   └────────────────────────────────────────────────┘
+```
 
-- ID: `leader`
+## PMC
+
+- ID: `pmc`
 - Permissions: `Admin`
 
-Project core management team, involved in roadmap development of major community-related resolutions.
+Project Management Committee for the whole BeyondStorage community.
+
+The management team for BeyondStorage, involved in the roadmap development of major community-related resolutions.
 
 ### Maintainer
 
