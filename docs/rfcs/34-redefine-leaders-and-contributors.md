@@ -61,7 +61,20 @@ All nomination should be submitted via RFCs.
 
 ## Rationale
 
-N/A
+### Why Contributor is meaningless for a single project but meaningful for the community?
+
+Because `Contributor` in the community will have permission to run integration tests. But contributors for a single project doesn't have special permission other than read.
+
+### PR nomination is enough?
+
+It's an idea that came from tikv community: https://github.com/tikv/community/blob/master/votes/0139-kennytm-as-tikv-committer.md
+
+In the future, we will introduce vote too and PR is hard to record that information. (We have to check every PR)
+
+It will not add too much burden:
+
+- As contributor will be added by tools, the nomination will be a low-frequency operation.
+- PR nomination still needs to update teams.toml, camp up with a more detailed RFC is more formal to us.
 
 ## Compatibility
 
