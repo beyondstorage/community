@@ -41,14 +41,23 @@ After these changes, our organization layout will be:
    ┌─────────────┐  ┌──────────────┐  ┌─────────────┐
    │  beyond-tp  │  │  go-storage  │  │  community  │
    │             │  │              │  │             │
-   │  Committer  │  │   Committer  │  │  Committer  │
-   │  Reviewer   │  │   Reviewer   │  │  Reviewer   │
+   │ Maintainer  │  │  Maintainer  │  │  Maintainer │
+   │ Committer   │  │  Committer   │  │  Committer  │
+   │ Reviewer    │  │  Reviewer    │  │  Reviewer   │
    └─────────────┘  └──────────────┘  └─────────────┘
    ┌────────────────────────────────────────────────┐
    │                   Contributor                  │
    └────────────────────────────────────────────────┘
 ```
 
+Since this RFC, we will adopt new process for nominate new contributors or other roles.
+
+- New PMC members should be nominated by existing PMC members.
+- New `Maintainer` should be nominated by PMC members.
+- New `Committer` and `Reviewer` should be nominated by project `Maintainer`.
+- New `Contributor` will be added automatically via tools.
+
+All nomination should be submitted via RFCs.
 
 ## Rationale
 
