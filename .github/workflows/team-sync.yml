@@ -21,7 +21,7 @@ jobs:
         with:
           repository: beyondstorage/go-community
           path: go-community
-          ref: v0.2.0
+          ref: v0.3.2
 
       - name: Build community tools
         working-directory: go-community
@@ -32,4 +32,4 @@ jobs:
         env:
           COMMUNITY_GITHUB_OWNER: beyondstorage
           COMMUNITY_GITHUB_ACCESS_TOKEN: ${{ secrets.COMMUNITY_GITHUB_ACCESS_TOKEN }}
-        run: ./go-community/bin/community team sync --path teams.toml
+        run: ./go-community/bin/community team sync --teams teams.toml --projects projects.toml

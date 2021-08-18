@@ -1,99 +1,63 @@
-[community]
-repos = [
-    "forum-theme",
-    "go-community",
-    "site"
-]
-[community.members]
-leader = [
+[pmc]
+repos = ["*"]
+role = "admin"
+members = [
     "Xuanwo"
-]
-committer = [
-    "xxchan",
-    "Prnyself",
-    "JinnyYi",
-    "aprilyang"
-]
-reviewer = [
-    "queenaray928"
-]
-contributor = [
-    "bokket",
-    "OAkaLala",
-    "junaire"
 ]
 
-[beyond-tp]
-repos = [
-    "beyond-tp",
-    "go-toolbox"
+[community-committer]
+project = "community"
+role = "committer"
+members = [
+    "Prnyself",
+    "aprilyang"
 ]
-[beyond-tp.members]
-leader = [
-    "Xuanwo"
+
+[community-reviewer]
+project = "community"
+role = "reviewer"
+members = [
+    "queenaray928",
 ]
-maintainer = [
-    "Prnyself"
+
+[beyond-tp-maintainer]
+project = "beyond-tp"
+role = "maintainer"
+members = [
+    "Prnyself",
 ]
-committer = [
+
+[beyond-tp-committer]
+project = "beyond-tp"
+role = "committer"
+members = [
     "aprilyang",
     "zhangdichn"
 ]
 
-[go-storage]
-repos = [
-    "beyond-fs",
-    "beyond-ftp",
-    "go-coreutils",
-    "go-endpoint",
-    "go-integration-test",
-    "go-service-azblob",
-    "go-service-cos",
-    "go-service-dropbox",
-    "go-service-example",
-    "go-service-fs",
-    "go-service-ftp",
-    "go-service-gcs",
-    "go-service-gdrive",
-    "go-service-hdfs",
-    "go-service-ipfs",
-    "go-service-kodo",
-    "go-service-memory",
-    "go-service-minio",
-    "go-service-onedrive",
-    "go-service-oss",
-    "go-service-qingstor",
-    "go-service-s3",
-    "go-service-storj",
-    "go-service-tar",
-    "go-service-uss",
-    "go-service-webdav",
-    "go-service-zip",
-    "go-storage",
-    "go-storage-example",
+[beyond-tp-reviewer]
+project = "beyond-tp"
+role = "reviewer"
+members = []
+
+[go-storage-maintainer]
+project = "go-storage"
+role = "maintainer"
+members = [
+    "xxchan",
 ]
-[go-storage.members]
-leader = [
-    "Xuanwo"
-]
-maintainer = [
-    "xxchan"
-]
-committer = [
+
+[go-storage-committer]
+project = "go-storage"
+role = "committer"
+members = [
     "JinnyYi",
     "Prnyself"
 ]
-reviewer = [
-    "zu1k"
-]
-contributor = [
-    "ccamel",
-    "zooltd",
-    "xiongjiwei",
-    "bokket",
-    "burntcarrot",
-    "aeinrw",
-    "RhnSharma",
-    "abyss-w",
-    "zhaohuxing"
+
+[go-storage-reviewer]
+project = "go-storage"
+role = "reviewer"
+members = [
+    "zu1k",
 ]
