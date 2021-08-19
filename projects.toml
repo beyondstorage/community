@@ -14,6 +14,7 @@ repos = [
 
 [go-storage]
 repos = [
+    "beyond-ctl",
     "beyond-fs",
     "beyond-ftp",
     "go-coreutils",
