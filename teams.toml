@@ -45,13 +45,13 @@ project = "go-storage"
 role = "maintainer"
 members = [
     "xxchan",
+    "JinnyYi",
 ]
 
 [go-storage-committer]
 project = "go-storage"
 role = "committer"
 members = [
-    "JinnyYi",
     "Prnyself"
 ]
 
