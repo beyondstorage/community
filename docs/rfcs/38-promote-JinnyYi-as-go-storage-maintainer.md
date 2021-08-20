@@ -1,9 +1,9 @@
 - Author: Xuanwo <github@xuanwo.io>
 - Start Date: 2021-08-20
-- RFC PR: [beyondstorage/community#0](https://github.com/beyondstorage/community/issues/0)
+- RFC PR: [beyondstorage/community#38](https://github.com/beyondstorage/community/issues/38)
 - Tracking Issue: N/A
 
-# RFC-0: Promote JinnyYi as go-storage Maintainer
+# RFC-38: Promote JinnyYi as go-storage Maintainer
 
 ## Background
 
