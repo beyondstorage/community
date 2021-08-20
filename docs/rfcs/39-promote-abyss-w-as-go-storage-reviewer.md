@@ -3,7 +3,7 @@
 - RFC PR: [beyondstorage/community#39](https://github.com/beyondstorage/community/issues/39)
 - Tracking Issue: N/A
 
-RFC-39: Promote abyss-w as go-storage Reviewer
+# RFC-39: Promote abyss-w as go-storage Reviewer
 
 ## Background
 
