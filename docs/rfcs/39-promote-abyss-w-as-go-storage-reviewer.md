@@ -1,9 +1,9 @@
 - Author: JinnyYi <github.com/JinnyYi>
 - Start Date: 2021-08-20
-- RFC PR: [beyondstorage/community#0](https://github.com/beyondstorage/community/issues/0)
+- RFC PR: [beyondstorage/community#39](https://github.com/beyondstorage/community/issues/39)
 - Tracking Issue: N/A
 
-RFC: Promote abyss-w as go-storage Reviewer
+RFC-39: Promote abyss-w as go-storage Reviewer
 
 ## Background
 
