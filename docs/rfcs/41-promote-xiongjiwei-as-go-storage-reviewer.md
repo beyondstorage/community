@@ -1,9 +1,9 @@
 - Author: JinnyYi <github.com/JinnyYi>
 - Start Date: 2021-08-23
-- RFC PR: [beyondstorage/community#0](https://github.com/beyondstorage/community/issues/0)
+- RFC PR: [beyondstorage/community#41](https://github.com/beyondstorage/community/issues/41)
 - Tracking Issue: N/A
 
-# RFC: Promote xiongjiwei as go-storage Reviewer
+# RFC-41: Promote xiongjiwei as go-storage Reviewer
 
 ## Background
 
