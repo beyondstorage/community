@@ -60,5 +60,6 @@ project = "go-storage"
 role = "reviewer"
 members = [
     "zu1k",
-    "abyss-w"
+    "abyss-w",
+    "xiongjiwei"
 ]
