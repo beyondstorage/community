@@ -7,7 +7,7 @@
 
 ## Background
 
-[abyss-w] is an active contributor of go-storage and related services since July. Due to her contributions, we nominate her as go-storage contributor in [#21](https://github.com/beyondstorage/community/pull/21). Since then, she has continued to improved her personal skills and project understanding, continued to contribute to community.
+[abyss-w] is an active contributor of go-storage and related services since July. Due to her contributions, we nominate her as go-storage contributor in [#21](https://github.com/beyondstorage/community/pull/21). Since then, she has continued to participate in community communication and contribute to the project.
 
 She has implemented the following go-storage feature:
 
