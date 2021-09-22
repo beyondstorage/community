@@ -1,0 +1,63 @@
+[site]
+project = ["go-storage", "beyond-tp"]
+
+["go-*"]
+project = ["go-storage"]
+["go-*".action]
+required = [
+    "build-test",
+    "unit-test",
+    "auto-merge"
+]
+allowed = ["integration-test"]
+
+["go-storage"]
+project = ["go-storage"]
+[go-storage.action]
+required = [
+    "build-test",
+    "unit-test",
+    "auto-merge"
+]
+allowed = [
+    "cross-build",
+    "golangci-lint"
+]
+
+[go-service-fs]
+project = ["go-storage"]
+[go-service-fs.action]
+required = [
+    "build-test",
+    "unit-test",
+    "auto-merge"
+]
+allowed = [
+    "cross-build",
+    "integration-test"
+]
+
+[beyond-tp]
+project = ["beyond-tp"]
+[beyond-tp.action]
+required = ["auto-merge"]
+allowed = ["unit-test", "release"]
+
+[beyond-ctl]
+project = ["go-storage"]
+[beyond-ctl.action]
+required = [
+    "build-test",
+    "unit-test",
+    "auto-merge"
+]
+allowed = ["integration-test"]
+
+[beyond-fs]
+project = ["go-storage"]
+[beyond-fs.action]
+required = [
+    "build-test",
+    "auto-merge"
+]
+allowed = ["unit-test"]
