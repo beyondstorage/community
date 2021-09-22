@@ -5,21 +5,6 @@ members = [
     "Xuanwo"
 ]
 
-[community-committer]
-project = "community"
-role = "committer"
-members = [
-    "Prnyself",
-    "aprilyang"
-]
-
-[community-reviewer]
-project = "community"
-role = "reviewer"
-members = [
-    "queenaray928",
-]
-
 [beyond-tp-maintainer]
 project = "beyond-tp"
 role = "maintainer"
