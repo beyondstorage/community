@@ -1,13 +1,12 @@
-name: "Weekly Report"
+name: "Action Sync"
 
 on:
   schedule:
-    - cron: '0 0 * * MON'
-
+    - cron: '0 0 * * *'
 
 jobs:
-  weekly_report:
-    name: Weekly Report
+  action_sync:
+    name: Action Sync
     runs-on: ubuntu-latest
 
     steps:
@@ -30,8 +29,9 @@ jobs:
         working-directory: go-community
         run: make build
 
-      - name: Build weekly report
+      - name: Sync Action
+        if: ${{ github.ref == 'refs/heads/master' }}
         env:
           COMMUNITY_GITHUB_OWNER: beyondstorage
           COMMUNITY_GITHUB_ACCESS_TOKEN: ${{ secrets.ROBOT_GITHUB_TOKEN }}
-        run: ./go-community/bin/community report weekly --type issue --output community
+        run: ./go-community/bin/community repo sync-actions --repos repos.toml --actions actions
