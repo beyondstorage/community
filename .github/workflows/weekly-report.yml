@@ -4,7 +4,6 @@ on:
   schedule:
     - cron: '0 0 * * MON'
 
-
 jobs:
   weekly_report:
     name: Weekly Report
