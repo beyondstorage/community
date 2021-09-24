@@ -1,7 +1,7 @@
 - Author: Xuanwo <github@xuanwo.io>
 - Start Date: 2021-09-23
 - RFC PR: [beyondstorage/community#49](https://github.com/beyondstorage/community/issues/49)
-- Tracking Issue: [beyondstorage/community#0](https://github.com/beyondstorage/community/issues/0)
+- Tracking Issue: [beyondstorage/community#50](https://github.com/beyondstorage/community/issues/50)
 
 # RFC-49: Community Merge
 
