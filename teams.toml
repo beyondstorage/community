@@ -37,7 +37,8 @@ members = [
 project = "go-storage"
 role = "committer"
 members = [
-    "Prnyself"
+    "Prnyself",
+    "abyss-w"
 ]
 
 [go-storage-reviewer]
@@ -45,6 +46,5 @@ project = "go-storage"
 role = "reviewer"
 members = [
     "zu1k",
-    "abyss-w",
     "xiongjiwei"
 ]
