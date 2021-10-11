@@ -1,9 +1,9 @@
 - Author: JinnyYi <github.com/JinnyYi>
 - Start Date: 2021-10-11
-- RFC PR: [beyondstorage/community#0](https://github.com/beyondstorage/community/issues/0)
+- RFC PR: [beyondstorage/community#55](https://github.com/beyondstorage/community/issues/55)
 - Tracking Issue: N/A
 
-# Proposal: Promote abyss-w as go-storage Committer
+# RFC-55: Promote abyss-w as go-storage Committer
 
 ## Background
 
