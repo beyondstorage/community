@@ -48,3 +48,18 @@ members = [
     "zu1k",
     "xiongjiwei"
 ]
+
+[beyond-ctl-maintainer]
+project = "beyond-ctl"
+role = "maintainer"
+members = []
+
+[beyond-ctl-committer]
+project = "beyond-ctl"
+role = "committer"
+members = []
+
+[beyond-ctl-reviewer]
+project = "beyond-ctl"
+role = "reviewer"
+members = []

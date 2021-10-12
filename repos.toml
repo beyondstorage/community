@@ -44,7 +44,7 @@ required = ["auto-merge"]
 allowed = ["unit-test", "release"]
 
 [beyond-ctl]
-project = ["go-storage"]
+project = ["beyond-ctl"]
 [beyond-ctl.action]
 required = [
     "build-test",
