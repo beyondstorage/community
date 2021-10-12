@@ -1,9 +1,9 @@
 - Author: Xuanwo <github@xuanwo.io>
 - Start Date: 2021-10-12
-- RFC PR: [beyondstorage/community#0](https://github.com/beyondstorage/community/issues/0)
-- Tracking Issue: [beyondstorage/community#0](https://github.com/beyondstorage/community/issues/0)
+- RFC PR: [beyondstorage/community#56](https://github.com/beyondstorage/community/issues/56)
+- Tracking Issue: N/A
 
-# RFC-0: Promote BeyondCTL as new Project
+# RFC-56: Promote BeyondCTL as new Project
 
 ## Background
 
