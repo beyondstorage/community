@@ -14,14 +14,13 @@ allowed = ["integration-test"]
 ["go-storage"]
 project = ["go-storage"]
 [go-storage.action]
-required = [
+required = []
+allowed = [
+    "cross-build",
+    "golangci-lint",
     "build-test",
     "unit-test",
     "auto-merge"
-]
-allowed = [
-    "cross-build",
-    "golangci-lint"
 ]
 
 [go-service-fs]
