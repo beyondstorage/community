@@ -57,7 +57,7 @@ members = []
 [beyond-ctl-committer]
 project = "beyond-ctl"
 role = "committer"
-members = []
+members = ["abyss-w"]
 
 [beyond-ctl-reviewer]
 project = "beyond-ctl"
