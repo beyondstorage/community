@@ -2,7 +2,8 @@
 repos = ["*"]
 role = "admin"
 members = [
-    "Xuanwo"
+    "Xuanwo",
+    "MorvenH"
 ]
 
 [beyond-tp-maintainer]
